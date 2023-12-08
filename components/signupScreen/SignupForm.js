@@ -5,7 +5,7 @@ import { TouchableOpacity } from 'react-native'
 import { Formik } from 'formik'
 import * as Yup from 'yup'
 import Validator from 'email-validator'
-import { firebase, db } from '../../firebase'
+//import { firebase, db } from '../../firebase'
 
 const SignupForm = ({ navigation }) => {
     const SignupFormSchema = Yup.object().shape({
